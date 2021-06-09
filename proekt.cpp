@@ -81,7 +81,39 @@ int main ()
         points=points+10;
     }
     else cout<<"The correct answer is 1985"<<endl;
-    cout<<"Points"<<" "<<points<<endl;
+    cout<<"Now a few questions about the movie"<<endl;
+    cout<<"Who plays Rose in Titanic?"<<endl;
+    cout<<"Enter a number between 1 and 4"<<endl;
+    cout<<"1 is Camila Mendes 2 is Julia Roberts 3 is Kate Winslet and 4 is Kate Hudson"<<endl;
+    int d;
+    cin>>d;
+    if(d==3)
+    {
+      cout<<"Correct!"<<endl;
+      points=points+10;
+    }
+    else cout<<"The correct answer is Kate Winslet"<<endl;
+    cout<<"Which famous artist sang the movie's theme song?"<<endl;
+    cout<<"Enter a number betwwen and 1 and 4"<<endl;
+    cout<<"1 is Mariah Carey,2 is Amy Grant,3 is Celine Dion and 4 is Whitney Houston"<<endl;
+    int k;
+    cin>>k;
+    if (k==3)
+    { 
+        cout<<"Correct!"<<endl;
+        points=points+10;
+    }
+    else cout<<"The correct answer is Celine Dion"<<endl;
+    cout<<"How is Jack able to board the Titanic?"<<endl;
+    cout<<"Enter a number between 1 amd 4"<<endl;
+    cout<<"1 is He buys a ticket,2 is He wins a ticket,3 is He sneaks on and 4 is He works as a crew member"<<endl;
+    int r;
+    cin>>r;
+    if (r==2)
+    {
+     cout<<"Core
+    }
+    
     return 0;
 
 
